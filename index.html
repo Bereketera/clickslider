@@ -2147,7 +2147,22 @@
 
 <div class="sliderdowntxt">
 
-  <p>Ethiopia is home to a cherished cultural heritage. From the vibrant music and arts to the unique history and folklore, Ethiopia is a treasure trove of cultural gems. In the same manner, traditional Ethiopian clothing is a mark of the country’s distinct heritage and identity. The culture they preserved through the centuries is reflected in the styles and patterns of their attire. Ethiopians take great pride in their traditional clothing. Ethiopians enjoy wearing their traditional clothing to a variety of social events, such as weddings and religious ceremonies, but it is also seen worn in everyday life.
+  <p>....<br>
+    .......<br>
+    ....<br>
+    .......<br>
+    ....<br>
+    .......<br>
+    ....<br>
+    .......<br>
+    ....<br>
+    .......<br>
+    ....<br>
+    .......<br>
+    ....<br>
+    .......<br>
+    ....<br>
+    .......<br> is home to a cherished cultural heritage. From the vibrant music and arts to the unique history and folklore, Ethiopia is a treasure trove of cultural gems. In the same manner, traditional Ethiopian clothing is a mark of the country’s distinct heritage and identity. The culture they preserved through the centuries is reflected in the styles and patterns of their attire. Ethiopians take great pride in their traditional clothing. Ethiopians enjoy wearing their traditional clothing to a variety of social events, such as weddings and religious ceremonies, but it is also seen worn in everyday life.
     ..
     
     ..
@@ -2164,6 +2179,20 @@
     
     ..</p>
 </div>
+
+<script>
+  
+</script>
+
+<script>
+
+var d=document.querySelector('.target')
+d.addEventListener('click', hideshow1);
+function hideshow1(){
+  swiper.autoplay.false;
+}
+
+</script>
   
 
 <!-- <script > 
@@ -2238,7 +2267,12 @@ function hideshow1(){
        spaceBetween: 30,
        centeredSlides: true,
    
-   autoplay: false,
+       autoplay: {
+        delay: 3500,
+        disableOnInteraction: true,
+        pauseOnMouseEnter: true
+        
+      },
  
    loop: true,
  
